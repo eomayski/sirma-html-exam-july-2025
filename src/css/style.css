@@ -1,0 +1,22 @@
+body {
+	margin: 20px;
+}
+
+
+.section-container {
+	margin: 0px auto;
+	max-width: 1400px;
+}
+
+.header-section {
+	background-position: center;
+	background-image: url('/img/places-to-visit-in-bulgaria.jpg');
+
+	height: 772px;
+	border-radius: 16px;
+
+}
+
+.logo-container img {
+	height: 30px;
+}

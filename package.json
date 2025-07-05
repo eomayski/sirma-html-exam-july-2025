@@ -1,0 +1,17 @@
+{
+  "name": "sirma-html-exam-july-2025",
+  "version": "1.0.0",
+  "description": "Final Exam July 2025\r ## Design Implementation\r Bulgaria Exam Design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.0.2"
+  }
+}
