@@ -1,22 +1,148 @@
-body {
-	margin: 20px;
+:root {
+	--white-color: #ffffff;
+	--black-color: #000000;
+	--gray-color: #4F4F53;
+
 }
 
+body {
+	margin: 20px;
+	font-family: 'DM Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 
 .section-container {
 	margin: 0px auto;
 	max-width: 1400px;
+	color: var(--white-color);
 }
 
-.header-section {
+.display {
+	font-size: 4.125em;
+	font-weight: bold;
+	line-height: 120%;
+	text-align: center;
+}
+
+.top-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+	max-width: 1280px;
+	padding: 0 35px;
+	margin: 7.5px auto;
+}
+
+.top-content {
+	display: flex;
+	justify-content: center;
+
+	color: var(--white-color);
+	align-items: center;
+	margin: 0px auto;
+}
+
+.header-section-container {
 	background-position: center;
 	background-image: url('/img/places-to-visit-in-bulgaria.jpg');
-
-	height: 772px;
 	border-radius: 16px;
+	border: solid 1px var(--black-color);
+}
+
+
+.header-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 140px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0) 25%);
+	border-radius: 16px;
+	padding: 20px 0px;
+}
+
+.navigation-container ul{
+	display: flex;
+	list-style: none;
+	gap: 35px;
+	padding: 0px 48px;
+	color: var(--white-color);
 
 }
 
-.logo-container img {
+.navigation-container a {
+	color: var(--white-color);
+	text-decoration: none;
+}
+
+
+
+.logo-container svg {
 	height: 30px;
+	fill:var(--white-color);
+	stroke: var(--white-color);
 }
+
+.st0 {
+	fill: var(--white-color);
+}
+
+.header-section-mine {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	margin: 0px auto;
+	max-width: 680px;
+	text-align: center;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.header-section-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 80px;
+	text-align: center;
+
+}
+
+button {
+	height: 45px;
+	border-radius: 40px;
+	padding: 12px 20px;
+}
+
+.transparent-button {
+	background: none;
+	border: none;
+	color: var(--white-color);
+}
+
+.black-button {
+		background-color: var(--black-color);
+		border: none;
+		border-radius: 40px;
+		color: var(--white-color);
+}
+
+
+.gray-button {
+	background: none;
+	border: solid 1px var(--gray-color);
+	color: var(--gray-color);
+}
+
