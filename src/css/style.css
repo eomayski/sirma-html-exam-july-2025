@@ -57,18 +57,29 @@ h2 {
 	font-size: 1.75em;
 }
 
+h3 {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
 h5 {
 	font-size: 0.875em;
 	font-weight: 500;
 }
 
-p2 {
-	font-size: 1em;
-}
 
 p1 {
 	font-size: 1.125em;
 	font-weight: 400;
+}
+
+p2 {
+	font-size: 1em;
 }
 
 /* Font colors */
@@ -271,16 +282,17 @@ p1 {
 	padding-right: 30px;
 }
 
-.platform-text-container{
+.platform-text-container {
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
 }
 
-.bulgaria12{
+.bulgaria12 {
 	align-self: center;
 }
-.bulgaria12 img{
+
+.bulgaria12 img {
 	max-width: 576px;
 	border-radius: 16px;
 }
@@ -290,9 +302,10 @@ p1 {
 	flex-direction: column;
 	gap: 24px;
 	max-width: 397px;
-	
+
 }
-.step{
+
+.step {
 	display: flex;
 	justify-content: flex-start;
 	gap: 24px;
@@ -352,7 +365,7 @@ p1 {
 	background: url('/img/hotel\ bansko.jpg') no-repeat scroll center / cover;
 }
 
-.hotel-info{
+.hotel-info {
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
@@ -366,20 +379,20 @@ p1 {
 	justify-content: flex-start;
 }
 
-.hotel-rating{
+.hotel-rating {
 	color: var(--rating-text-color);
 	background-color: var(--rating-background-color);
 	border-radius: 48px;
 	padding: 2px 8px;
 }
 
-.hotel-bottom{
+.hotel-bottom {
 	display: flex;
 	justify-content: space-between;
 }
 
-.explore-button{
-	align-self: center;	
+.explore-button {
+	align-self: center;
 }
 
 /* Main 4 Reviews */
@@ -566,7 +579,7 @@ button {
 
 /* Media Queries*/
 @media (max-width: 1200px) {
-	.bulgaria12 img{
+	.bulgaria12 img {
 		max-width: 470px;
 	}
 
@@ -608,7 +621,7 @@ button {
 		padding: 0px 60px;
 	}
 
-	.platform-section-container{
+	.platform-section-container {
 		flex-direction: column-reverse;
 		align-items: center;
 		gap: 48px;
@@ -634,8 +647,47 @@ button {
 
 
 @media (max-width: 768px) {
+	/* Mobile Fonds*/
+
 	.display {
 		font-size: 2.25em;
+	}
+
+	.h1-style {
+		font-size: 2em;
+		font-weight: 500;
+		line-height: 100%;
+	}
+
+	h2 {
+		font-size: 1.375em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+		font-weight: 500;
+	}
+
+	h4 {
+		font-size: 1.125em;
+		font-weight: 600;
+	}
+
+	h5 {
+		font-size: 0.75em;
+		font-weight: 500;
+	}
+
+	p1 {
+		font-size: 1em;
+	}
+
+	p2 {
+		font-size: 0.875em;
+	}
+
+	button {
+		font-size: 0.875em;
 	}
 
 	.header-section-mine {
@@ -709,12 +761,12 @@ button {
 		padding: 0px 20px;
 	}
 
-		.city {
+	.city {
 		height: 300px;
 		max-width: 350px;
 	}
 
-			.hotel {
+	.hotel {
 		height: 300px;
 		max-width: 350px;
 	}
