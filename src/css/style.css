@@ -247,6 +247,7 @@ p1 {
 	padding: 31px 32px;
 	color: var(--white-color);
 	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+	border-radius: 16px;
 }
 
 /* Main 2 Platform */
@@ -309,7 +310,6 @@ p1 {
 .travel-section-container {
 	display: flex;
 	flex-direction: column;
-	/* align-items: center; */
 	gap: 40px;
 	padding: 0px 32px;
 }
@@ -703,6 +703,24 @@ button {
 @media (max-width: 568px) {
 	.header-section-mine {
 		max-width: 300px;
+	}
+
+	.header-section-footer {
+		padding: 0px 20px;
+	}
+
+		.city {
+		height: 300px;
+		max-width: 350px;
+	}
+
+			.hotel {
+		height: 300px;
+		max-width: 350px;
+	}
+
+	.bulgaria12 img {
+		max-width: 360px;
 	}
 
 	.ready-section-content {
